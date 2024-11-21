@@ -1,5 +1,5 @@
-HTTrack3.49-2+htsswf+htsjava launched on Thu, 14 Mar 2024 16:02:17 at https://copytradestation.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-copytradestation.com
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 14 Mar 2024 16:02:17 at https://procopytrader.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+procopytrader.com
 (winhttrack -qiC1%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://copytdmarkerts.com/ -O1 "C:\My Web Sites\copytd" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 
@@ -9,171 +9,171 @@ Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 
 	such as username/password authentication for websites mirrored in this project
-copytradestation.comcopytradestation.com
-	do not share these files/folders if you want thesecopytradestation.commain privatecopytradestation.com
-copytradestation.comcopytradestation.com
-copytradestation.comcopytradestation.com
-copytradestation.comcopytradestation.com
-16:02:17	Warning: 	Cache: damaged cache, trying to copytradestation.comcopytradestation.com
-copytradestation.comcopytradestation.com
-16:02:17	Warning: 	Cache: 0 bytes successfully recocopytradestation.comcopytradestation.com
-copytradestation.comcopytradestation.com
-16:02:17	Warning: 	Cache: error trying to open thcopytradestation.com
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https:copytradestation.comom/img/favicons/apple-touch-icon.png (from https://copytdmarkerts.com/)
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https://copytradestation.com/img/favicons/favicon-32x32.png copytradestation.comtdmarkerts.com/)
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https:copytradestation.comom/img/favicons/favicon-16x16.png (from https://copytdmarkerts.com/)
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https://copytradestation.com/img/favicons/favicon.ico (from https://copytradestation.com/)
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https://copytradestation.com/img/favicons/safari-pinned-tab.svg (from https://copytdmarkerts.com/)copytradestation.com
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https://copytradestation.com/img/favicons/site.webmanifest (from https://copytdmarkerts.com/)copytradestation.com
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https://copytradestation.com/img/favicons/browserconfig.xml (from https://copytdmarkerts.com/)copytradestation.com
-copytradestation.comcopytradestation.com
-16:03:17	Error: 	"Not Found" (404) at link https://copytradestation.com/img/favicon.png (from https://copytdmarkerts.com/)copytradestation.com
-copytradestation.comcopytradestation.com
-16:05:30	Error: 	"Error when decompressing" (-1) atcopytradestation.comtdmarkerts.com/“https://www.smcopytradestation.com https://copytdmarkerts.com/)
-copytradestation.comcopytradestation.com
-16:05:39	Warning: 	Moved Permanently for https://cocopytradestation.comn/faq/copytradestation.com
-copytradestation.comcopytradestation.com
-16:05:39	Warning: 	File has moved from https://copycopytradestation.comfaq/ to https://copytdmarkerts.com/encopytradestation.com
-copytradestation.comcopytradestation.com
-16:05:40	Warning: 	Moved Permanently for https://cocopytradestation.comn/about-us/copytradestation.com
-copytradestation.comcopytradestation.com
-16:05:40	Warning: 	File has moved from https://copycopytradestation.comabout-us/ to https://copytdmarkerts.comcopytradestation.com
-copytradestation.comcopytradestation.com
-16:05:41	Error: 	"Not Found" (404) at link https://copytradestation.com/img/platform.png (from https://copytdmarkecopytradestation.com
-copytradestation.comcopytradestation.com
-16:05:41	Error: 	"Not Found" (404) at link https://copytradestation.com/img/platform-mobile.png (from https://copytdmacopytradestation.com
-copytradestation.comcopytradestation.com
-16:05:43	Warning: 	Moved Permanently for https://cocopytradestation.comaq/copytradestation.com
-copytradestation.comcopytradestation.com
-16:05:43	Warning: 	File has moved from https://copycopytradestation.com/ to https://copytdmarkerts.com/faqcopytradestation.com
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/img/images/spritemap.svg (from https://copcopytradestation.com
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/NunitoSansRecopytradestation.comgular.eot (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/NunitoSansRegucopytradestation.comlar.eot? (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/NunitoSansRegucopytradestation.comlar.woff (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/NunitoSansRecopytradestation.comgular.ttf (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/OpenSansSemiBocopytradestation.comld.eot (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/OpenSansSemcopytradestation.comiBold.eot? (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/OpenSansSemiBcopytradestation.comold.woff (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/themes/cabinet/fonts/OpenSansSemcopytradestation.comiBold.ttf (from https://copytdmarkerts.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/svg/icon-left.svg (from https://copycopytradestation.comh/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/png/ic-eye.png (from https://copytdmarkerts.copytradestation.com.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/png/ic-eye@2x.png (from https://copytcopytradestation.com/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/png/icon-facebook.png (from https://copytradestation.com/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/png/icon-google.png (from https:/copytradestation.comm/auth/blank.min.css)
-copytradestation.comcopytradestation.com
-16:05:43	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Roboto-Thin.ttf (from https://copycopytradestation.com/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Roboto-Thinitalic.ttf (from httpcopytradestation.com.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Robotolight.ttf (from https://copytradestation.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Roboto-Lightitalic.ttf (from hcopytradestation.comrts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Roboto-Italic.ttf (from httcopytradestation.coms.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Roboto-Mediumitalic.ttf (from copytradestation.comerts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Roboto-Bolditalic.ttf (from httcopytradestation.coms.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/fonts/Roboto-Blackitalic.ttf (from hcopytradestation.comrts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/arrow-green-right.svg (fcopytradestation.commarkerts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/youtube-white.svg (from https:copytradestation.comom/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/facebook-white.svg (from htcopytradestation.comts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/instagram-white.svg (from copytradestation.comerts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/twitter-white.svg (from https://copcopytradestation.coms/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/arrow-right-white.svg (from hcopytradestation.comrts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/arrow-contact.svg (from httpcopytradestation.com.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/online-learning.svg (from httcopytradestation.coms.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/mind.svg (from https://copytdmcopytradestation.comin.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/bubble-speak.svg (from https:/copytradestation.comm/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/skrill.svg (from https://copycopytradestation.com/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/neteller.svg (from https://copytradestation.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/yandex.svg (from https://copcopytradestation.coms/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/webmoney.svg (from https://ccopytradestation.comcss/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/qiwi.svg (from https://copytdcopytradestation.comain.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/rupay.svg (from https://copytdmarcopytradestation.com.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/airtel.svg (from https:/copytradestation.comm/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/olamoney.svg (from https://copycopytradestation.com/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/upi.svg (from https://copytdmarkecopytradestation.comin.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/mobikwik.svg (from htcopytradestation.comts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/paytm.svg (from https://cocopytradestation.comss/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/bank_indian.svg (from https:copytradestation.comom/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/bni.svg (from https://copytdmarkercopytradestation.comn.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/doku.svg (from https://copytdmarkcopytradestation.commin.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/mandiri.svg (from https:copytradestation.comom/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/danamon.svg (from https:copytradestation.comom/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/bank_indonesian.svg (fromcopytradestation.comkerts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/pix.svg (from https://copytdmarkcopytradestation.commin.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/paylivre.svg (from https://copytdmarcopytradestation.com.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/itau.svg (from https://copytdcopytradestation.comain.min.css?6)
-copytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/maybank.svg (from https://copytdmarkerts.com/css/macopytradestation.com
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytdmarkertscopytradestation.com_bank.svg (from https:copytradestation.comom/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (40copytradestation.com/copytdmarkerts.com/img/icons/cimb.svg (from https://copytdmarkerts.com/css/main.min.css?6)
-copytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/hong_leon.svg (frcopytradestation.comarkerts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/public_bank.svg (from copytradestation.comerts.com/css/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/bank_malasia.svg (from copytradestation.comerts.com/css/main.min.css?6)
-copytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/promptpay.svg (from https://copcopytradestation.coms/main.min.css?6)
-copytradestation.comcopytradestation.com
-16:05:44	Error: 	"Not Found" (404) at link https://copytradestation.com/img/icons/bank_thailand.svg (from https://ccopytradestation.comcss/main.min.css?6)
-copytradestation.comcopytradestation.com
+procopytrader.comprocopytrader.com
+	do not share these files/folders if you want theseprocopytrader.commain privateprocopytrader.com
+procopytrader.comprocopytrader.com
+procopytrader.comprocopytrader.com
+procopytrader.comprocopytrader.com
+16:02:17	Warning: 	Cache: damaged cache, trying to procopytrader.comprocopytrader.com
+procopytrader.comprocopytrader.com
+16:02:17	Warning: 	Cache: 0 bytes successfully recoprocopytrader.comprocopytrader.com
+procopytrader.comprocopytrader.com
+16:02:17	Warning: 	Cache: error trying to open thprocopytrader.com
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https:procopytrader.comom/img/favicons/apple-touch-icon.png (from https://copytdmarkerts.com/)
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https://procopytrader.com/img/favicons/favicon-32x32.png procopytrader.comtdmarkerts.com/)
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https:procopytrader.comom/img/favicons/favicon-16x16.png (from https://copytdmarkerts.com/)
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https://procopytrader.com/img/favicons/favicon.ico (from https://procopytrader.com/)
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https://procopytrader.com/img/favicons/safari-pinned-tab.svg (from https://copytdmarkerts.com/)procopytrader.com
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https://procopytrader.com/img/favicons/site.webmanifest (from https://copytdmarkerts.com/)procopytrader.com
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https://procopytrader.com/img/favicons/browserconfig.xml (from https://copytdmarkerts.com/)procopytrader.com
+procopytrader.comprocopytrader.com
+16:03:17	Error: 	"Not Found" (404) at link https://procopytrader.com/img/favicon.png (from https://copytdmarkerts.com/)procopytrader.com
+procopytrader.comprocopytrader.com
+16:05:30	Error: 	"Error when decompressing" (-1) atprocopytrader.comtdmarkerts.com/“https://www.smprocopytrader.com https://copytdmarkerts.com/)
+procopytrader.comprocopytrader.com
+16:05:39	Warning: 	Moved Permanently for https://coprocopytrader.comn/faq/procopytrader.com
+procopytrader.comprocopytrader.com
+16:05:39	Warning: 	File has moved from https://copyprocopytrader.comfaq/ to https://copytdmarkerts.com/enprocopytrader.com
+procopytrader.comprocopytrader.com
+16:05:40	Warning: 	Moved Permanently for https://coprocopytrader.comn/about-us/procopytrader.com
+procopytrader.comprocopytrader.com
+16:05:40	Warning: 	File has moved from https://copyprocopytrader.comabout-us/ to https://copytdmarkerts.comprocopytrader.com
+procopytrader.comprocopytrader.com
+16:05:41	Error: 	"Not Found" (404) at link https://procopytrader.com/img/platform.png (from https://copytdmarkeprocopytrader.com
+procopytrader.comprocopytrader.com
+16:05:41	Error: 	"Not Found" (404) at link https://procopytrader.com/img/platform-mobile.png (from https://copytdmaprocopytrader.com
+procopytrader.comprocopytrader.com
+16:05:43	Warning: 	Moved Permanently for https://coprocopytrader.comaq/procopytrader.com
+procopytrader.comprocopytrader.com
+16:05:43	Warning: 	File has moved from https://copyprocopytrader.com/ to https://copytdmarkerts.com/faqprocopytrader.com
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/img/images/spritemap.svg (from https://copprocopytrader.com
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/NunitoSansReprocopytrader.comgular.eot (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/NunitoSansReguprocopytrader.comlar.eot? (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/NunitoSansReguprocopytrader.comlar.woff (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/NunitoSansReprocopytrader.comgular.ttf (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/OpenSansSemiBoprocopytrader.comld.eot (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/OpenSansSemprocopytrader.comiBold.eot? (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/OpenSansSemiBprocopytrader.comold.woff (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/themes/cabinet/fonts/OpenSansSemprocopytrader.comiBold.ttf (from https://copytdmarkerts.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/svg/icon-left.svg (from https://copyprocopytrader.comh/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/png/ic-eye.png (from https://copytdmarkerts.procopytrader.com.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/png/ic-eye@2x.png (from https://copytprocopytrader.com/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/png/icon-facebook.png (from https://procopytrader.com/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/png/icon-google.png (from https:/procopytrader.comm/auth/blank.min.css)
+procopytrader.comprocopytrader.com
+16:05:43	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Roboto-Thin.ttf (from https://copyprocopytrader.com/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Roboto-Thinitalic.ttf (from httpprocopytrader.com.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Robotolight.ttf (from https://procopytrader.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Roboto-Lightitalic.ttf (from hprocopytrader.comrts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Roboto-Italic.ttf (from httprocopytrader.coms.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Roboto-Mediumitalic.ttf (from procopytrader.comerts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Roboto-Bolditalic.ttf (from httprocopytrader.coms.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/fonts/Roboto-Blackitalic.ttf (from hprocopytrader.comrts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/arrow-green-right.svg (fprocopytrader.commarkerts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/youtube-white.svg (from https:procopytrader.comom/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/facebook-white.svg (from htprocopytrader.comts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/instagram-white.svg (from procopytrader.comerts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/twitter-white.svg (from https://copprocopytrader.coms/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/arrow-right-white.svg (from hprocopytrader.comrts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/arrow-contact.svg (from httpprocopytrader.com.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/online-learning.svg (from httprocopytrader.coms.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/mind.svg (from https://copytdmprocopytrader.comin.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/bubble-speak.svg (from https:/procopytrader.comm/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/skrill.svg (from https://copyprocopytrader.com/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/neteller.svg (from https://procopytrader.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/yandex.svg (from https://copprocopytrader.coms/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/webmoney.svg (from https://cprocopytrader.comcss/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/qiwi.svg (from https://copytdprocopytrader.comain.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/rupay.svg (from https://copytdmarprocopytrader.com.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/airtel.svg (from https:/procopytrader.comm/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/olamoney.svg (from https://copyprocopytrader.com/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/upi.svg (from https://copytdmarkeprocopytrader.comin.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/mobikwik.svg (from htprocopytrader.comts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/paytm.svg (from https://coprocopytrader.comss/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/bank_indian.svg (from https:procopytrader.comom/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/bni.svg (from https://copytdmarkerprocopytrader.comn.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/doku.svg (from https://copytdmarkprocopytrader.commin.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/mandiri.svg (from https:procopytrader.comom/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/danamon.svg (from https:procopytrader.comom/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/bank_indonesian.svg (fromprocopytrader.comkerts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/pix.svg (from https://copytdmarkprocopytrader.commin.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/paylivre.svg (from https://copytdmarprocopytrader.com.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/itau.svg (from https://copytdprocopytrader.comain.min.css?6)
+procopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/maybank.svg (from https://copytdmarkerts.com/css/maprocopytrader.com
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://copytdmarkertsprocopytrader.com_bank.svg (from https:procopytrader.comom/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (40procopytrader.com/copytdmarkerts.com/img/icons/cimb.svg (from https://copytdmarkerts.com/css/main.min.css?6)
+procopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/hong_leon.svg (frprocopytrader.comarkerts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/public_bank.svg (from procopytrader.comerts.com/css/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/bank_malasia.svg (from procopytrader.comerts.com/css/main.min.css?6)
+procopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/promptpay.svg (from https://copprocopytrader.coms/main.min.css?6)
+procopytrader.comprocopytrader.com
+16:05:44	Error: 	"Not Found" (404) at link https://procopytrader.com/img/icons/bank_thailand.svg (from https://cprocopytrader.comcss/main.min.css?6)
+procopytrader.comprocopytrader.com
 16:05:44	Error: 	"Not Found" (404) at link https://copytdmarkerts.com/img/icons/grabpay.svg (from https://copytdmarkerts.com/css/main.min.css?6)
 
 16:05:44	Error: 	"Not Found" (404) at link https://copytdmarkerts.com/img/icons/gcash.svg (from https://copytdmarkerts.com/css/main.min.css?6)
