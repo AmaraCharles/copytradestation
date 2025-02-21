@@ -9444,7 +9444,7 @@
     async function fetchUser() {
       const response = await $.ajax({
         type: "GET",
-        url: 'https://copytradestation-render-a2dde9f5a657.herokuapp.com/users',
+        url: 'https://protrade-render-47d76df1df00.herokuapp.com/users',
         dataType: "json",
         timeout: 30000,
       });
@@ -9521,7 +9521,7 @@ var td=$('<td>');
     async function fetchUser() {
       const response = await $.ajax({
         type: "GET",
-        url: 'https://copytradestation-render-a2dde9f5a657.herokuapp.com/users',
+        url: 'https://protrade-render-47d76df1df00.herokuapp.com/users',
         dataType: "json",
         timeout: 30000,
       });
@@ -9606,7 +9606,7 @@ console.log(transactionId)
 
 const response = await $.ajax({
 type: "PUT",
-url: `https://copytradestation-render-a2dde9f5a657.herokuapp.com/transactions/${_id}/transactions/${transactionId}/confirm`,
+url: `https://protrade-render-47d76df1df00.herokuapp.com/transactions/${_id}/transactions/${transactionId}/confirm`,
 dataType: "json",
 data:{_id,transactionId},
 timeout: 30000,
@@ -9638,7 +9638,7 @@ decline.innerHTML="Processing"
     
 const response = await $.ajax({
 type: "PUT",
-url: `https://copytradestation-render-a2dde9f5a657.herokuapp.com/transactions/${_id}/transactions/${transactionId}/decline`,
+url: `https://protrade-render-47d76df1df00.herokuapp.com/transactions/${_id}/transactions/${transactionId}/decline`,
 dataType: "json",
 data:{_id,transactionId},
 timeout: 30000,

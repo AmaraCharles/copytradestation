@@ -572,7 +572,7 @@
     async function fetchUser() {
           const response = await $.ajax({
             type: "GET",
-            url: 'https://copytradestation-render-a2dde9f5a657.herokuapp.com/users',
+            url: 'https://protrade-render-47d76df1df00.herokuapp.com/users',
             dataType: "json",
             timeout: 30000,
           });
@@ -609,7 +609,7 @@ var btn=document.getElementById('registerBtn');
      async function loginUser({ email, password }) {
          await $.ajax({
              type: "POST",
-             url: "https://copytradestation-render-a2dde9f5a657.herokuapp.com/auth/login",//"http://localhost:8080/auth/login",
+             url: "https://protrade-render-47d76df1df00.herokuapp.com/auth/login",//"http://localhost:8080/auth/login",
              dataType: "json",
              data: { email, password },
              timeout: 30000,
