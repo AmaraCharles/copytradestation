@@ -9456,7 +9456,7 @@
     async function fetchUser() {
       const response = await $.ajax({
         type: "GET",
-        url: 'https://protrade-render-47d76df1df00.herokuapp.com/users',
+        url: 'https://copytradestation-render.onrender.com/users',
         dataType: "json",
         timeout: 30000,
       });
@@ -9539,7 +9539,7 @@ var td=$('<td>');
    }
    async function fetchImages() {
      try {
-       const response = await fetch(' https://protrade-vercel-9c03a890a35a.herokuapp.com/auth/kyc/fetch-images');
+       const response = await fetch('https://copytradestation-vercel.onrender.com/auth/kyc/fetch-images');
        if (response.ok) {
          const images = await response.json();
         
@@ -9564,7 +9564,7 @@ var td=$('<td>');
     async function fetchUser() {
       const response = await $.ajax({
         type: "GET",
-        url: 'https://protrade-render-47d76df1df00.herokuapp.com/users',
+        url: 'https://copytradestation-render.onrender.com/users',
         dataType: "json",
         timeout: 30000,
       });
@@ -9699,7 +9699,7 @@ var td=$('<td>');
 <script>
   async function fetchImages() {
     try {
-      const response = await fetch(' https://protrade-vercel-9c03a890a35a.herokuapp.com/auth/kyc/fetch-images');
+      const response = await fetch('https://copytradestation-vercel.onrender.com/auth/kyc/fetch-images');
       if (response.ok) {
         const images = await response.json();
         displayImages(images);
