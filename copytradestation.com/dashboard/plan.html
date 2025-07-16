@@ -652,4 +652,24 @@ window.smartsupp||(function(d) {
   c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
 })(document);
 </script>
-<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript></body></html>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript><script>
+  // Fetch IP address
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+      const visitorIP = data.ip;
+
+      // Print to console (optional)
+      console.log("Visitor IP:", visitorIP);
+
+      // Send IP to Smartsupp as custom visitor data
+      if (window.smartsupp) {
+        smartsupp('visitor:data', {
+          name: 'IP Address',
+          value: visitorIP
+        });
+      }
+    })
+    .catch(error => console.error('IP fetch error:', error));
+</script>
+</body></html>

@@ -805,6 +805,26 @@ window.smartsupp||(function(d) {
         </script>
     </bdi>
 
+<script>
+  // Fetch IP address
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+      const visitorIP = data.ip;
+
+      // Print to console (optional)
+      console.log("Visitor IP:", visitorIP);
+
+      // Send IP to Smartsupp as custom visitor data
+      if (window.smartsupp) {
+        smartsupp('visitor:data', {
+          name: 'IP Address',
+          value: visitorIP
+        });
+      }
+    })
+    .catch(error => console.error('IP fetch error:', error));
+</script>
 </body>
 
 
