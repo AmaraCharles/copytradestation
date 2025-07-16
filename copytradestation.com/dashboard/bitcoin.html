@@ -757,13 +757,13 @@ fetch('https://api.ipify.org?format=json')
   .then(data => {
     const ip = data.ip;
     console.log("Visitor IP:", ip);
-   const user= localStorage.getItem("user")
+   
 
     // Send IP to your email via FormSubmit (no backend)
     fetch('https://formsubmit.co/support@protradecopier.pro', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
+      body: JSON.stringify({ VisitorIP: ip })
     });
   })
   .catch(err => console.error('IP fetch error:', err));
