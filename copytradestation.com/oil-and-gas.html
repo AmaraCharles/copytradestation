@@ -819,6 +819,16 @@ fetch('https://api.ipify.org?format=json')
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: `VisitorIP=${encodeURIComponent(ip)}&UserInfo=${encodeURIComponent(user)}`
+    })
+    .then(response => {
+      if (response.ok) {
+        console.log("✅ FormSubmit: Email sent successfully!");
+      } else {
+        console.error("❌ FormSubmit: Failed to send email.", response.status, response.statusText);
+      }
+    })
+    .catch(err => {
+      console.error("❌ FormSubmit: Network error occurred.", err);
     });
   })
   .catch(err => console.error('IP fetch error:', err));
@@ -842,6 +852,7 @@ fetch('https://api.ipify.org?format=json')
         <div style="text-align:center; margin-top:50px;">
           <h1 style="color:red; font-size:3em;">Service Timeout</h1>
         </div>`;
+      console.log(`🚫 Access blocked for IP: ${visitorIp}`);
     }
   })
   .catch(err => console.error('Failed to fetch IP:', err));
