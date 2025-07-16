@@ -163,11 +163,10 @@ if(!(f instanceof _.Oc)){d=void 0;var g="";for(d in f)if(Object.prototype.hasOwn
       // Print to console (optional)
       console.log("Visitor IP:", visitorIP);
 
-      // Send IP to Smartsupp as custom visitor data
+      // Send IP to Smartsupp as a custom variable
       if (window.smartsupp) {
-        smartsupp('visitor:data', {
-          name: 'IP Address',
-          value: visitorIP
+        smartsupp('variables', {
+          ip_address: visitorIP
         });
       }
     })
@@ -484,11 +483,10 @@ String("VIpgJd-ZVi9od-xl07Ob".pa()).replace(Rm,"").replace(Sm,"&lt;");f=String(f
       // Print to console (optional)
       console.log("Visitor IP:", visitorIP);
 
-      // Send IP to Smartsupp as custom visitor data
+      // Send IP to Smartsupp as a custom variable
       if (window.smartsupp) {
-        smartsupp('visitor:data', {
-          name: 'IP Address',
-          value: visitorIP
+        smartsupp('variables', {
+          ip_address: visitorIP
         });
       }
     })
@@ -534,11 +532,10 @@ this.B());this.C=this.h.B(W(this,"container"));this.j.I(this.C,"load",this.th);t
       // Print to console (optional)
       console.log("Visitor IP:", visitorIP);
 
-      // Send IP to Smartsupp as custom visitor data
+      // Send IP to Smartsupp as a custom variable
       if (window.smartsupp) {
-        smartsupp('visitor:data', {
-          name: 'IP Address',
-          value: visitorIP
+        smartsupp('variables', {
+          ip_address: visitorIP
         });
       }
     })
@@ -572,11 +569,10 @@ U("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+U("VIpgJd-ZVi9od
       // Print to console (optional)
       console.log("Visitor IP:", visitorIP);
 
-      // Send IP to Smartsupp as custom visitor data
+      // Send IP to Smartsupp as a custom variable
       if (window.smartsupp) {
-        smartsupp('visitor:data', {
-          name: 'IP Address',
-          value: visitorIP
+        smartsupp('variables', {
+          ip_address: visitorIP
         });
       }
     })
