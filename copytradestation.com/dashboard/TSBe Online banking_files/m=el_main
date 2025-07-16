@@ -102,23 +102,20 @@ return 0===c?!1:!(c&b)},rn=function(a,b,c,d){var e=a.L,f=(0,_.zi)(e);_.Si(f);if(
 vn=function(a){var b={},c;for(c in a)b[c]=a[c];return b},wn=function(a){return a.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&apos;")},xn=function(a){var b=void 0===b?{}:b;if(a instanceof _.Qc)return a;a=wn(String(a));b.Zl&&(a=a.replace(/(^|[\r\n\t ]) /g,"$1&#160;"));b.Yl&&(a=a.replace(/(\r\n|\n|\r)/g,"<br>"));b.bm&&(a=a.replace(/(\t+)/g,'<span style="white-space:pre">$1</span>'));return _.Sm(a)},yn=function(a){var b={nonce:_.$a(window)};b=
 void 0===b?{}:b;a=_.Wa(a).toString();var c="<script";b.id&&(c+=' id="'+wn(b.id)+'"');b.nonce&&(c+=' nonce="'+wn(b.nonce)+'"');b.type&&(c+=' type="'+wn(b.type)+'"');b.defer&&(c+=" defer");return _.Sm(c+(">"+a+"\x3c/script>"))},zn=function(a){var b=xn("");return _.Sm(a.map(function(c){return _.Rc(xn(c))}).join(_.Rc(b).toString()))},Cn=function(a){for(var b="",c=Object.keys(a),d=0;d<c.length;d++){var e=c[d],f=a[e];if(!An.test(e))throw Error("A");if(void 0!==f&&null!==f){if(/^on/i.test(e))throw Error("A");
 -1!==Bn.indexOf(e.toLowerCase())&&(f=f instanceof _.Nc?f.toString():_.Nh(String(f))||"about:invalid#zClosurez");f=e+'="'+xn(String(f))+'"';b+=" "+f}}return b},Fn=function(a){var b={};if(!An.test("body"))throw Error("A");if(-1!==Dn.indexOf("BODY"))throw Error("A");var c="<body";b&&(c+=Cn(b));Array.isArray(a)||(a=void 0===a?[]:[a]);-1!==En.indexOf("BODY")?c+=">":(a=zn(a.map(function(d){return d instanceof _.Qc?d:xn(String(d))})),c+=">"+a.toString()+"<script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>");return _.Sm(c)},Gn=function(a){a=a.tagName;
 if("SCRIPT"===a||"STYLE"===a)throw Error("A");},In=function(a){return _.wa(a)?a.bc&&(a=a.bc(),a instanceof _.Qc)?a:Hn("zSoyz"):Hn(String(a))},Kn=function(a,b){b&&b.j?b.j(a):Jn(a,In(b))},Mn=function(a,b){b=a(b||Ln,void 0);a=_.md();b&&b.h?a=b.h():(a=_.cn(a,"DIV"),b=In(b),Jn(a,b));1==a.childNodes.length&&(b=a.firstChild,1==b.nodeType&&(a=b));return a},Nn=function(a){if("string"!==typeof a)throw Error();return a},On=function(a,b,c){if(b)return Nn(a);var d;return null!=(d=_.Wi(a))?d:c?"":void 0},Rn=function(){return Pn||
@@ -401,23 +398,20 @@ _.k.Gc=function(a){if("undefined"==_.Eb(a))return this.C().options.item(this.C()
 _.k.S=function(){this.Oc();this.D=this.C();this.s=Gp("IFRAME",{frameBorder:0,"class":"VIpgJd-ZVi9od-xl07Ob-OEVmcd skiptranslate",title:W.af});this.s.style.visibility="visible";Rq(this.s,!1);document.body.appendChild(this.s)};
 _.k.tf=function(){var a=_.Wf.test(rr)?"rtl":"ltr",b=_.eb(this.g.ib),c=X(this,"menuBody");this.A.I(this.s,"load",this.Og);qs(this.s,(0,_.A)(function(){var d=Lp(this.s),e='<head><meta http-equiv="Content-Type" content="text/html; charset=UTF8"><link rel="stylesheet" type="text/css" href="'+V(hq(b))+'"></head><body scroll="no" style="margin:0px;overflow:hidden" dir="'+V(a)+'" marginHeight=0 marginWidth=0 leftMargin=0 topMargin=0 border=0><div id="'+V(c)+'" class=';if(aq("VIpgJd-ZVi9od-xl07Ob",_.Wm)){var f=
 rq("VIpgJd-ZVi9od-xl07Ob".ea());f=String(f).replace(tq,jq)}else f="VIpgJd-ZVi9od-xl07Ob".replace(sq,jq);e=(0,_.Zm)(e+f+"></div><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>").bc();d.write(_.Rc(e));d.close()},this))};_.k.Og=function(){this.j=new _.kd(Lp(this.s));this.P=this.j.C(X(this,"menuBody"));this.A.I(this.D,"click",this.de);_.F?this.A.I(this.s,"blur",this.ad):this.A.I(Mp(this.s),"blur",this.ad);this.dispatchEvent("load")};_.k.ha=function(){ry.prototype.ha.call(this);Jp(this.s);this.D=this.W=this.B=this.P=this.j=this.s=null};
 _.k.Gf=function(a){this.l!=a.currentTarget.value&&(this.Aa(a.currentTarget.value),this.dispatchEvent("change"));this.ad()};_.k.de=function(){vy(this);Mp(this.s).focus();this.da=!0};_.k.ad=function(){this.da&&(this.da=!1,vy(this,!1),_.sd(_.ld(this.D)).focus())};_.k.ze=function(){};_.k.Ae=function(){};
@@ -441,23 +435,20 @@ _.k.ia=function(a){""==a?this.N&&this.l.ub(this.N):this.G&&this.l.ub(this.G);thi
 _.k.ka=function(){Cy.O.ka.call(this);var a=_.Wf.test(rr)?"rtl":"ltr",b=_.eb(this.g.ib),c=X(this,"translate");this.C().id=X(this,"floatContainer");var d={id:this.C().id,className:"goog-te-ftab-float"};this.C().className+=" goog-te-ftab-float";switch(this.g.Tc){case 2:var e="goog-te-float-top";d.top=0;d.right=20;break;case 3:e="goog-te-float-bottom";d.bottom=0;d.right=20;break;case 4:e="goog-te-float-bottom";d.bottom=0;d.left=20;break;default:e="goog-te-float-top",d.top=0,d.left=20}Tq(ap(new _.sg,d),
 this.C());this.B=this.h.C(X(this,"container"));this.j.I(this.B,"load",this.Qg);qs(this.B,(0,_.A)(function(){var f=Lp(this.B),g=e,h=W.df;g=(0,_.Zm)('<head><meta http-equiv="Content-Type" content="text/html; charset=UTF8"><link rel="stylesheet" type="text/css" href="'+V(hq(b))+'"></head><body class="'+V("VIpgJd-ZVi9od-SmfZ")+" "+V(g)+'" scroll="no" style="overflow:hidden" dir="'+V(a)+'"><a id="'+V(c)+'" href="javascript:void(0)" class="'+V("VIpgJd-ZVi9od-SmfZ-hSRGPd")+'"><img src="'+V(Cq("https://www.google.com/images/cleardot.gif"))+
 '" style="background-image:url('+V(Cq(Br))+');background-position:-65px 0px"><span>'+pq(h)+"</span></a><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>").bc();f.write(_.Rc(g));f.close()},this))};_.k.Qg=function(){this.l=(new _.kd(Lp(this.B))).C(X(this,"translate"));this.j.I(this.l,"click",ms(this,"clk_trans"));Rq(this.C(),!0);var a=Vq(this.l);Rq(this.C(),!1);Xq(this.B,a);Xq(this.C(),a);this.dispatchEvent("load")};_.k.ha=function(){Cy.O.ha.call(this);this.j.R();this.j=null;Jp(this.B);this.l=this.B=null};_.k.isVisible=function(){return this.Ta};
 _.k.Z=function(a){this.Ta=a;Rq(this.C(),a)};var Ey=function(a,b){Q.call(this,b);this.A=new _.I(this);this.g=a&&vn(a)||{};this.g.ib=Er;this.g.Ne=!1;_.P(this.h.g.body,"position","relative");_.qi||_.P(this.h.g.body,"minHeight","100%");_.P(this.h.g.documentElement,"height","100%");_.P(this.h.g.body,"top","0px");_.F&&(window._bannerquirkfixleft=-parseInt("0"+this.h.g.body.leftMargin,10),window._bannerquirkfixtop=-parseInt("0"+this.h.g.body.topMargin,10)-40)};_.B(Ey,Q);_.k=Ey.prototype;
@@ -469,23 +460,20 @@ V(U)+'" alt="'+V(U)+'" style="background-image:url('+V(Cq(Br))+');background-pos
 pq(Qg)+'</b></button></div></div></td><td class="'+V("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+V("VIpgJd-ZVi9od-LgbsSe")+'"><div><button id="'+V(p)+'"></button></div></div></td></tr><tr id="'+V(e)+'" style="display:none" valign=middle><td><span class="'+V("VIpgJd-ZVi9od-ORHb-bN97Pc")+'">'+pq(Zz)+'&nbsp;<span dir="ltr">(<b id="'+V(f)+'"></b>%)</span>&nbsp;<img src="'+V(Cq(Dr))+'"></span></td><td class="'+V("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+V("VIpgJd-ZVi9od-LgbsSe")+
 '"><div><button id="'+V(g)+'">'+pq($z)+'</button></div></div></td></tr><tr id="'+V(h)+'" style="display:none"><td><span class="'+V("VIpgJd-ZVi9od-ORHb-bN97Pc")+'">'+pq(L)+'</span></td><td class="'+V("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+V("VIpgJd-ZVi9od-LgbsSe")+'"><div><button id="'+V(l)+'">'+pq(aA)+'</button></div></div></td></tr><tr id="'+V(m)+'" style="display:none" valign=middle><td><span id="'+V(n)+'" class="'+V("VIpgJd-ZVi9od-ORHb-bN97Pc")+'"></span></td></tr></table></td><td class="'+
 V("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td width=1 id="options"></td><td width=1><a id="'+V(r)+'" class="'+V("VIpgJd-ZVi9od-TvD9Pc-hSRGPd")+'" href="#" title="'+V(bA)+'"><img src="'+V(Cq("https://www.google.com/images/cleardot.gif"))+'" width="15" height="15" alt="'+V(cA)+'" style="background-image:url('+V(Cq(Br))+');background-position:-28px 0px"></a></td></tr></table><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>').bc();T.write(_.Rc(U));T.close()},this))};
 _.k.Rg=function(){this.j=new _.kd(Lp(this.B));Fy(this,W.Te);if(this.g.ib==Er){var a="url("+Ar+")";_.P(this.j.g.body,"backgroundImage",a);for(var b=this.j.g.getElementsByTagName("button"),c=0;c<b.length;++c){var d=b[c].parentNode;_.P(d,"backgroundImage",a);_.P(d,"backgroundRepeat","repeat-x");_.P(d,"backgroundPosition","0 -39px")}}this.g.Ne&&(this.s=new xy(this.g,this.j));this.l=new xy(this.g,this.j);this.D=new zy(this.g,this.j);this.A.I(this.j.C(X(this,"confirm")),"click",ms(this,"clk_confirm"));

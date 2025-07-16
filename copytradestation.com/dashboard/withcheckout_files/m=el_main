@@ -154,23 +154,20 @@ if(!(f instanceof _.Oc)){d=void 0;var g="";for(d in f)if(Object.prototype.hasOwn
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>
 ");return _.Wc(a)},Qi=function(a,b){if((0,_.Zc)())for(;a.lastChild;)a.removeChild(a.lastChild);a.innerHTML=_.Vc(b)},al=function(a,b){b=b instanceof _.Hc?b:_.li(b);a.action=_.$g(b)},bl=function(a,b){return a+Math.random()*(b-a)},cl=function(a,b){return new Q(a.x-b.x,a.y-b.y)},dl=function(a){return a.replace(/\xa0|[ \t]+/g,
@@ -474,23 +471,20 @@ String("VIpgJd-ZVi9od-xl07Ob".pa()).replace(Rm,"").replace(Sm,"&lt;");f=String(f
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>
 ").Hc();d.write(_.Vc(e));d.close()},this))};_.l.rh=function(){this.j=new _.ed(pl(this.l));this.S=this.j.B(W(this,"menuBody"));this.A.I(this.D,"click",this.Ce);_.C?this.A.I(this.l,"blur",this.Bd):this.A.I(ql(this.l),"blur",this.Bd);this.dispatchEvent("load")};
@@ -523,23 +517,20 @@ this.B());this.C=this.h.B(W(this,"container"));this.j.I(this.C,"load",this.th);t
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>
 ").Hc();f.write(_.Vc(g));f.close()},this))};_.l.th=function(){this.l=(new _.ed(pl(this.C))).B(W(this,"translate"));this.j.I(this.l,"click",pp(this,"clk_trans"));T(this.B(),!0);var a=Bm(this.l);T(this.B(),!1);Dm(this.C,a);Dm(this.B(),a);this.dispatchEvent("load")};_.l.oa=function(){rv.P.oa.call(this);this.j.T();this.j=null;nl(this.C);this.l=this.C=null};_.l.isVisible=function(){return this.ob};
@@ -560,23 +551,20 @@ U("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+U("VIpgJd-ZVi9od
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/17955474/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code --><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>
 ').Hc();Ca.write(_.Vc(oa));Ca.close()},this))};

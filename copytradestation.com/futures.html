@@ -799,23 +799,20 @@ window.smartsupp||(function(d) {
     </bdi>
 
 <script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>
 

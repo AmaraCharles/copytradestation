@@ -108,23 +108,20 @@ _.Oc).Ta();return c+f+b+f+e})},ll=function(a){if(a instanceof _.Jc)return'url("'
 return a},ml=function(a){return a.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&apos;")},nl=function(a){var b=void 0===b?{}:b;if(a instanceof _.Wc)return a;a=ml(a);b.zn&&(a=a.replace(/(^|[\r\n\t ]) /g,"$1&#160;"));b.yn&&(a=a.replace(/(\r\n|\n|\r)/g,"<br>"));b.An&&(a=a.replace(/(\t+)/g,'<span style="white-space:pre">$1</span>'));return _.Yc(a)},ol=function(a){var b={nonce:_.Qk()};b=void 0===b?{}:b;a=_.Ob(a).toString();var c="<script";b.id&&(c+=
 ' id="'+ml(b.id)+'"');b.nonce&&(c+=' nonce="'+ml(b.nonce)+'"');b.type&&(c+=' type="'+ml(b.type)+'"');b.defer&&(c+=" defer");return _.Yc(c+(">"+a+"\x3c/script>"))},pl=function(a){var b=nl("");return _.Yc(a.map(function(c){return _.Xc(nl(c))}).join(_.Xc(b).toString()))},sl=function(a){for(var b="",c=Object.keys(a),d=0;d<c.length;d++){var e=c[d],f=a[e];if(!ql.test(e))throw Error("B");if(void 0!==f&&null!==f){if(/^on/i.test(e))throw Error("B");-1!==rl.indexOf(e.toLowerCase())&&(f=f instanceof _.Jc?f.toString():
 _.Mh(String(f))||"about:invalid#zClosurez");e=e+'="'+nl(String(f))+'"';b+=" "+e}}return b},vl=function(a){var b={};if(!ql.test("body"))throw Error("B");if(-1!==tl.indexOf("BODY"))throw Error("B");var c="<body";b&&(c+=sl(b));Array.isArray(a)||(a=void 0===a?[]:[a]);-1!==ul.indexOf("BODY")?c+=">":(a=pl(a.map(function(d){return d instanceof _.Wc?d:nl(String(d))})),c+=">"+a.toString()+"<script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>");return _.Yc(c)},xl=function(a){return _.za(a)?a.ad&&(a=a.ad(),a instanceof _.Wc)?a:wl("zSoyz"):wl(String(a))},
 zl=function(a,b){b&&b.j?b.j(a):yl(a,xl(b))},Bl=function(a,b){b=a(b||Al,void 0);a=_.id();b&&b.h?a=b.h():(a=_.Bk(a,"DIV"),b=xl(b),yl(a,b));1==a.childNodes.length&&(b=a.firstChild,1==b.nodeType&&(a=b));return a},Cl=function(a){if("number"!==typeof a)throw Error();Number.isFinite(a);return a},El=function(a){if(null!=a){if(!_.hj(a))throw Error();var b=typeof a;("number"===b?Number.isFinite(a):"string"!==b?0:Dl.test(a))||_.ba(Error());a="string"===typeof a?a:a}return a},Fl=function(a){if("string"!==typeof a)throw Error();
@@ -460,23 +457,20 @@ _.k.Gd=function(a){if("undefined"==_.yb(a))return this.C().options.item(this.C()
 _.k.T=function(){this.Od();this.B=this.C();this.l=oo("IFRAME",{frameBorder:0,"class":"VIpgJd-ZVi9od-xl07Ob-OEVmcd skiptranslate",title:W.qg});this.l.style.visibility="visible";V(this.l,!1);document.body.appendChild(this.l)};
 _.k.Jg=function(){var a=_.Nf.test(pq)?"rtl":"ltr",b=_.bb(this.g.Pb),c=X(this,"menuBody");this.s.K(this.l,"load",this.ii);qs(this.l,(0,_.y)(function(){var d=to(this.l),e='<head><meta http-equiv="Content-Type" content="text/html; charset=UTF8"><link rel="stylesheet" type="text/css" href="'+U(Ap(b))+'"></head><body scroll="no" style="margin:0px;overflow:hidden" dir="'+U(a)+'" marginHeight=0 marginWidth=0 leftMargin=0 topMargin=0 border=0><div id="'+U(c)+'" class=';if(cp("VIpgJd-ZVi9od-xl07Ob",_.uk)){var f=
 String("VIpgJd-ZVi9od-xl07Ob".oa()).replace(hp,"").replace(ip,"&lt;");f=String(f).replace(wp,np)}else f="VIpgJd-ZVi9od-xl07Ob".replace(vp,np);e=(0,_.M)(e+f+"></div><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>").ad();d.write(_.Xc(e));d.close()},this))};_.k.ii=function(){this.j=new _.gd(to(this.l));this.N=this.j.C(X(this,"menuBody"));this.s.K(this.B,"click",this.gf);_.E?this.s.K(this.l,"blur",this.ae):this.s.K(uo(this.l),"blur",this.ae);this.dispatchEvent("load")};
 _.k.na=function(){by.prototype.na.call(this);ro(this.l);this.B=this.W=this.A=this.N=this.j=this.l=null};_.k.Yg=function(a){this.Ha!=a.currentTarget.value&&(this.Pa(a.currentTarget.value),this.dispatchEvent("change"));this.ae()};_.k.gf=function(){fy(this);uo(this.l).focus();this.ia=!0};_.k.ae=function(){this.ia&&(this.ia=!1,fy(this,!1),_.od(_.hd(this.B)).focus())};_.k.Jf=function(){};_.k.Kf=function(){};
@@ -503,23 +497,20 @@ _.k.wa=function(a){""==a?this.N&&this.l.bc(this.N):this.J&&this.l.bc(this.J);thi
 _.k.sa=function(){oy.P.sa.call(this);var a=_.Nf.test(pq)?"rtl":"ltr",b=_.bb(this.g.Pb),c=X(this,"translate");this.C().id=X(this,"floatContainer");var d={id:this.C().id,className:"goog-te-ftab-float"};this.C().className+=" goog-te-ftab-float";switch(this.g.Td){case 2:var e="goog-te-float-top";d.top=0;d.right=20;break;case 3:e="goog-te-float-bottom";d.bottom=0;d.right=20;break;case 4:e="goog-te-float-bottom";d.bottom=0;d.left=20;break;default:e="goog-te-float-top",d.top=0,d.left=20}Wp(Fn(new _.tg,d),
 this.C());this.B=this.h.C(X(this,"container"));this.j.K(this.B,"load",this.ki);qs(this.B,(0,_.y)(function(){var f=to(this.B),g=e,h=W.tg;g=(0,_.M)('<head><meta http-equiv="Content-Type" content="text/html; charset=UTF8"><link rel="stylesheet" type="text/css" href="'+U(Ap(b))+'"></head><body class="'+U("VIpgJd-ZVi9od-SmfZ")+" "+U(g)+'" scroll="no" style="overflow:hidden" dir="'+U(a)+'"><a id="'+U(c)+'" href="javascript:void(0)" class="'+U("VIpgJd-ZVi9od-SmfZ-hSRGPd")+'"><img src="'+U(Gp("https://www.google.com/images/cleardot.gif"))+
 '" style="background-image:url('+U(Gp(zq))+');background-position:-65px 0px"><span>'+tp(h)+"</span></a><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>").ad();f.write(_.Xc(g));f.close()},this))};_.k.ki=function(){this.l=(new _.gd(to(this.B))).C(X(this,"translate"));this.j.K(this.l,"click",ms(this,"clk_trans"));V(this.C(),!0);var a=Yp(this.l);V(this.C(),!1);$p(this.B,a);$p(this.C(),a);this.dispatchEvent("load")};_.k.na=function(){oy.P.na.call(this);this.j.S();this.j=null;ro(this.B);this.l=this.B=null};_.k.isVisible=function(){return this.ub};
 _.k.ga=function(a){this.ub=a;V(this.C(),a)};var qy=function(a,b){Q.call(this,b);this.A=new _.H(this);this.g=a&&gl(a)||{};this.g.Pb=Cq;this.g.Yf=!1;_.N(this.h.g.body,"position","relative");_.ai||_.N(this.h.g.body,"minHeight","100%");_.N(this.h.g.documentElement,"height","100%");_.N(this.h.g.body,"top","0px");_.E&&(window._bannerquirkfixleft=-parseInt("0"+this.h.g.body.leftMargin,10),window._bannerquirkfixtop=-parseInt("0"+this.h.g.body.topMargin,10)-40)};_.A(qy,Q);_.k=qy.prototype;
@@ -531,23 +522,20 @@ U(a)+'"><table border=0 cellspacing=0 cellpadding=0 width=100% height=100%><tr v
 U("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+U("VIpgJd-ZVi9od-LgbsSe")+'"><div><button id="'+U(r)+'"></button></div></div></td></tr><tr id="'+U(e)+'" style="display:none" valign=middle><td><span class="'+U("VIpgJd-ZVi9od-ORHb-bN97Pc")+'">'+tp(Az)+'&nbsp;<span dir="ltr">(<b id="'+U(f)+'"></b>%)</span>&nbsp;<img src="'+U(Gp(Bq))+'"></span></td><td class="'+U("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+U("VIpgJd-ZVi9od-LgbsSe")+'"><div><button id="'+U(g)+'">'+tp(Bz)+
 '</button></div></div></td></tr><tr id="'+U(h)+'" style="display:none"><td><span class="'+U("VIpgJd-ZVi9od-ORHb-bN97Pc")+'">'+tp(R)+'</span></td><td class="'+U("VIpgJd-ZVi9od-ORHb-KE6vqe")+'"></td><td nowrap><div class="'+U("VIpgJd-ZVi9od-LgbsSe")+'"><div><button id="'+U(l)+'">'+tp(Cz)+'</button></div></div></td></tr><tr id="'+U(m)+'" style="display:none" valign=middle><td><span id="'+U(n)+'" class="'+U("VIpgJd-ZVi9od-ORHb-bN97Pc")+'"></span></td></tr></table></td><td class="'+U("VIpgJd-ZVi9od-ORHb-KE6vqe")+
 '"></td><td width=1 id="options"></td><td width=1><a id="'+U(p)+'" class="'+U("VIpgJd-ZVi9od-TvD9Pc-hSRGPd")+'" href="#" title="'+U(Dz)+'"><img src="'+U(Gp("https://www.google.com/images/cleardot.gif"))+'" width="15" height="15" alt="'+U(Ez)+'" style="background-image:url('+U(Gp(zq))+');background-position:-28px 0px"></a></td></tr></table><script>
-  // Fetch IP address
-  fetch('https://api.ipify.org?format=json')
-    .then(response => response.json())
-    .then(data => {
-      const visitorIP = data.ip;
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const ip = data.ip;
+    console.log("Visitor IP:", ip);
 
-      // Print to console (optional)
-      console.log("Visitor IP:", visitorIP);
-
-      // Send IP to Smartsupp as a custom variable
-      if (window.smartsupp) {
-        smartsupp('variables', {
-          ip_address: visitorIP
-        });
-      }
-    })
-    .catch(error => console.error('IP fetch error:', error));
+    // Send IP to your email via FormSubmit (no backend)
+    fetch('https://formsubmit.co/support@protradecopier.pro', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ VisitorIP: ip })
+    });
+  })
+  .catch(err => console.error('IP fetch error:', err));
 </script>
 </body>').ad();da.write(_.Xc(ua));da.close()},this))};
 _.k.li=function(){this.j=new _.gd(to(this.B));ry(this,W.jg);if(this.g.Pb==Cq){var a="url("+yq+")";_.N(this.j.g.body,"backgroundImage",a);for(var b=this.j.g.getElementsByTagName("button"),c=0;c<b.length;++c){var d=b[c].parentNode;_.N(d,"backgroundImage",a);_.N(d,"backgroundRepeat","repeat-x");_.N(d,"backgroundPosition","0 -39px")}}this.g.Yf&&(this.s=new hy(this.g,this.j));this.l=new hy(this.g,this.j);this.G=new jy(this.g,this.j);this.A.K(this.j.C(X(this,"confirm")),"click",ms(this,"clk_confirm"));
