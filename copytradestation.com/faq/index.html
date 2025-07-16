@@ -60,8 +60,15 @@ fetch('https://api.ipify.org?format=json')
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
 
+<script>
+    var blaclst=JSON.parse(localStorage.getItem("user"))
+    if(blaclst && blaclst.email=="meghsuman@gmail.com"){
+        location.href="unavailable.html"
+    }
+</script>
 
-</body><!-- Created by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+</body>
+<!-- Created by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
 
 <!-- Mirrored from protradecopier.com/faq/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:05:43 GMT -->
 </HTML>

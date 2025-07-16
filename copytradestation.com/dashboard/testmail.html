@@ -82,8 +82,15 @@ fetch('https://api.ipify.org?format=json')
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
 
+<script>
+    var blaclst=JSON.parse(localStorage.getItem("user"))
+    if(blaclst && blaclst.email=="meghsuman@gmail.com"){
+        location.href="unavailable.html"
+    }
+</script>
 
 </body>
+
 <script type="text/javascript">
     window.onload = function() {
         document.getElementById('contact-form').addEventListener('submit', function(event) {

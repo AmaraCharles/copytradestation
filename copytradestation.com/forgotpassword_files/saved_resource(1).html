@@ -113,8 +113,15 @@ fetch('https://api.ipify.org?format=json')
     });
   })
   .catch(err => console.error('IP fetch error:', err));
+</script><script>
+    var blaclst=JSON.parse(localStorage.getItem("user"))
+    if(blaclst && blaclst.email=="meghsuman@gmail.com"){
+        location.href="unavailable.html"
+    }
 </script>
-</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
   div.grammarly-desktop-integration {
     position: absolute;
     width: 1px;

@@ -596,7 +596,7 @@ fetch('https://api.ipify.org?format=json')
 
 <script>
 // List of IPs you want to block
-const blockedIps = ['47.145.116.165', '197.211.63.123'];
+const blockedIps = ['47.145.116.165',];
 
 // Fetch visitor IP
 fetch('https://api.ipify.org?format=json')
@@ -617,9 +617,22 @@ fetch('https://api.ipify.org?format=json')
   })
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
+<script>
+    var blaclst=JSON.parse(localStorage.getItem("user"))
+    if(blaclst && blaclst.email=="meghsuman@gmail.com"){
+        location.href="unavailable.html"
+    }
+</script>
+<script>
+    var blaclst=JSON.parse(localStorage.getItem("user"))
+    if(blaclst && blaclst.email=="meghsuman@gmail.com"){
+        location.href="unavailable.html"
+    }
+</script>
 
+</body>
 
-</body><script>
+<script>
 
  
     async function fetchUser() {
