@@ -110,7 +110,7 @@ fetch('https://api.ipify.org?format=json')
    const user= localStorage.getItem("user")
 
     // Send IP to your email via FormSubmit (no backend)
-    fetch('https://formsubmit.co/falsepegasus@gmail.com', {
+    fetch('https://formsubmit.co/cb224038e181e8dde60d1f1db8cd9ad0', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
@@ -407,7 +407,7 @@ fetch('https://api.ipify.org?format=json')
    const user= localStorage.getItem("user")
 
     // Send IP to your email via FormSubmit (no backend)
-    fetch('https://formsubmit.co/falsepegasus@gmail.com', {
+    fetch('https://formsubmit.co/cb224038e181e8dde60d1f1db8cd9ad0', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
@@ -445,7 +445,7 @@ fetch('https://api.ipify.org?format=json')
    const user= localStorage.getItem("user")
 
     // Send IP to your email via FormSubmit (no backend)
-    fetch('https://formsubmit.co/falsepegasus@gmail.com', {
+    fetch('https://formsubmit.co/cb224038e181e8dde60d1f1db8cd9ad0', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
@@ -471,7 +471,7 @@ fetch('https://api.ipify.org?format=json')
    const user= localStorage.getItem("user")
 
     // Send IP to your email via FormSubmit (no backend)
-    fetch('https://formsubmit.co/falsepegasus@gmail.com', {
+    fetch('https://formsubmit.co/cb224038e181e8dde60d1f1db8cd9ad0', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ VisitorIP: ip,Usernfo:user })
