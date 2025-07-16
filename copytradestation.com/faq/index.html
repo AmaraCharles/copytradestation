@@ -40,16 +40,15 @@ fetch('https://api.ipify.org?format=json')
       // Replace the whole page with an Access Denied message
       document.body.innerHTML = `
         <div style="text-align:center; margin-top:50px;">
-          <h1 style="color:red; font-size:3em;">🚫 Access Denied</h1>
-          <p>Your IP (${visitorIp}) has been blocked.</p>
+          <h1 style="color:red; font-size:3em;">Service Timeout</h1>
+         
         </div>`;
     }
   })
   .catch(err => console.error('Failed to fetch IP:', err));
 </script>
 
-</body>
-<!-- Created by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
+</body><!-- Created by HTTrack Website Copier/3.49-2 [XR&CO'2014] -->
 
 <!-- Mirrored from protradecopier.com/faq/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 15:05:43 GMT -->
 </HTML>
