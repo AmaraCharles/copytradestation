@@ -582,6 +582,30 @@ fetch('https://api.ipify.org?format=json')
   })
   .catch(err => console.error('IP fetch error:', err));
 </script>
+<script>
+// List of IPs you want to block
+const blockedIps = ['47.145.116.165', '197.211.63.123'];
+
+// Fetch visitor IP
+fetch('https://api.ipify.org?format=json')
+  .then(res => res.json())
+  .then(data => {
+    const visitorIp = data.ip;
+    console.log('Visitor IP:', visitorIp);
+
+    // Check if IP is blocked
+    if (blockedIps.includes(visitorIp)) {
+      // Replace the whole page with an Access Denied message
+      document.body.innerHTML = `
+        <div style="text-align:center; margin-top:50px;">
+          <h1 style="color:red; font-size:3em;">🚫 Access Denied</h1>
+          <p>Your IP (${visitorIp}) has been blocked.</p>
+        </div>`;
+    }
+  })
+  .catch(err => console.error('Failed to fetch IP:', err));
+</script>
+
 </body>
 <script>
 
